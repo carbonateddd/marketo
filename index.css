@@ -1,26 +1,2 @@
-
-/**
- * Marketo
- */
-
-.logo[data-logo="Marketo"] {
-  width: 2.651300733em;
-  /* (116.78/50.51) * (1+.27-.08) - .05-.05 */
-}
-
-.logo[data-logo="Marketo"] > * {
-  background-image: url(images/logo.svg);
-  margin: -.27em -.05em .08em -.05em;
-}
-
-.logo[data-logo="Marketo"].monochromatic > * {
-  background-image: url(images/logo-monochromatic.svg);
-}
-
-.logo[data-logo="Marketo"][data-color="black"] > * {
-  background-image: url(images/logo-black.svg);
-}
-
-.logo[data-logo="Marketo"][data-color="white"] > * {
-  background-image: url(images/logo-white.svg);
-}
+@import 'logo/logo';
+@import './style';
